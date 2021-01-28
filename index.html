@@ -9,7 +9,7 @@
 </head>
 <body>
     
-    <div id="login-area">
+    <div id="login-area" class="container">
         <h1 class="text-center" id="wel-tag">Welcome to Shikha Bank LTD</h1>
         <div class="submit-area rounded-3">
             <h4>Login</h4>
@@ -21,21 +21,21 @@
 
 
 
-    <div id="transaction-area">
+    <div id="transaction-area" class="container">
         <div class="row">
-            <div class="col-md-4 rounded-3">
+            <div class="col-sm-4 rounded-3 float-left">
                 <div class="status deposit">
                     <h5>Deposit</h5>
                     <h2>$ <span id="current-deposit">00</span></h2>
                 </div>
             </div>
-            <div class="col-md-4 rounded-3">
+            <div class="col-sm-4 rounded-3 float-left">
               <div class="status withdraw">
                 <h5>Withdraw</h5>
                 <h2>$ <span id="current-withdraw">00</span></h2>
               </div>
             </div>
-            <div class="col-md-4 rounded-3">
+            <div class="col-sm-4 rounded-3 float-left">
               <div class="status balance">
                 <h5>Balance</h5>
                 <h2>& <span id="balance">1240</span></h2>
@@ -43,16 +43,16 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
-                <div class="submit-area">
+            <div class="col-sm-6">
+                <div class="submit-area submit submit1">
                 <h4>Deposit</h4>
                 <input id="deposit-amount" type="number" class="form-control mt-3 mb-3"  placeholder="$ amount you want to deposit">
                 <button id="deposit" class="btn btn-success">Deposit</button>
                 </div>
                 
             </div>
-            <div class="col-md-6">
-                <div class="submit-area">
+            <div class="col-sm-6">
+                <div class="submit-area submit submit2">
                 <h4> Withdraw</h4>
                 <input id="withdraw-amount" type="number" class="form-control mt-3 mb-3"  placeholder="$ amount you want to withdraw">
                 <button id="withdraw" class="btn btn-success">Withdraw</button>

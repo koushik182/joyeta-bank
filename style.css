@@ -1,5 +1,6 @@
 body{
-    padding: 100px;
+    padding: 10px;
+    padding-top:50px;
 }
 
 .submit-area{
@@ -13,21 +14,44 @@ body{
 }
 
 .status{
-    margin: 0 20px;
+    margin: 10px 0px;
     color: white;
     padding: 20px;
     border-radius: 10px;
+    width: 33%;
+    
 }
 
 .deposit{
     background-color: slateblue;
+    position: relative;
+    left: -12px;
   
 }
 .withdraw{
     background-color: lightsalmon;
-
+    position: relative;
+    top: -131px;
+    left: 148px;
 }
 .balance{
     background-color: orange;
+    position: relative;
+    top: -262px;
+    left: 306px;
+}
+.submit{
+    width: 50%;
+}
+.submit1{
+    position: relative;
+    top: -290px;
+    left: -5px;
+}
+.submit2{
+    position: relative;
+    top: -555px;
+    left: 227px;
 
+}
 }
